@@ -2,9 +2,11 @@
 
 # 🔬 CopilotScope
 
+#### by Microsoft Business Value Advisory (BVA)
+
 ### One scope, many lenses. Power BI lenses to measure the **value, adoption, maturity, behaviour, and impact** of Microsoft 365 Copilot.
 
-[![Built by Microsoft](https://img.shields.io/badge/BUILT_BY-MICROSOFT-4F73B8?style=for-the-badge&labelColor=1C2632)](https://github.com/Keithland89/CopilotScope)
+[![Built by Microsoft BVA](https://img.shields.io/badge/BUILT_BY-MICROSOFT_BVA-4F73B8?style=for-the-badge&labelColor=1C2632)](https://github.com/Keithland89/CopilotScope)
 [![Power BI Template](https://img.shields.io/badge/POWER_BI-TEMPLATE-F2C811?style=for-the-badge&logo=powerbi&logoColor=1C2632&labelColor=1C2632)](#the-lenses)
 [![Status](https://img.shields.io/badge/STATUS-IN_BUILD-09B39D?style=for-the-badge&labelColor=1C2632)](#status)
 
@@ -59,6 +61,10 @@ Most lenses come from the **same core setup**. You only add a data source to unl
 
 - **[StudioLens](https://github.com/Keithland89/StudioLens-for-Copilot-Studio)** — the standalone
   Copilot Studio agent deep-dive (also runs Dataverse-Direct, no Fabric).
+
+## About
+
+CopilotScope is created and maintained by the **Microsoft Business Value Advisory (BVA)** team.
 
 ## License
 
