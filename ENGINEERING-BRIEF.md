@@ -27,6 +27,12 @@ the lens does. This is the core UX promise: **one setup, every lens.**
 **One-liner:** *CopilotScope — one setup, many lenses. Measure the value, adoption, maturity,
 behaviour, and impact of Microsoft 365 Copilot.*
 
+> **Team byline (apply to every README):** CopilotScope is built and maintained by **Microsoft Business Value
+> Advisory (BVA)**. Use a #### by Microsoft Business Value Advisory (BVA) subtitle under the H1, a BUILT BY
+> MICROSOFT_BVA badge (not generic `Built by Microsoft`), and an **About** line. Do NOT put `BVA` in the
+> product name itself — the name stays `CopilotScope` (mirrors how the Copilot Studio Kit credits Power CAT).
+
+
 Positioning language to weave into copy (grounded in current MS framing): *value realization*,
 *adoption maturity* (Initial → Efficient), *the capacity gap*, *human-agent teams / Frontier Firm*.
 
@@ -255,6 +261,55 @@ Dependencies: M3(Fabric)→M2. M1/M1b/M4/M5 independent.
 - **M4:** ReadinessLens split clean; BehaviorLens lights up only when the M365 source is present.
 - **M5:** maturity levels map to Initial→Efficient; Maturity Meter reads correctly.
 - **M6:** per-lens + Scope Home demo assets published; all anonymised.
+
+---
+
+## 14. README & repo conventions (borrowed from the Power CAT Copilot Studio Kit)
+
+We're modelling repo shape on Microsoft's **Power CAT Copilot Studio Kit**
+(`github.com/microsoft/Power-CAT-Copilot-Studio-Kit`). Apply these conventions.
+
+### 14a. Scope Home README structure (target order)
+1. **Hero** — logo/emoji + name + BVA byline + badges + one-line "microscope" pitch + (later) a hero
+   landing-page screenshot.
+2. **Setup → Lens matrix** (our differentiator — keep it high, right after the hero).
+3. **`## The lenses`** — one `###` per lens: 2–3 sentence description + *"More information on
+   [<Lens>](./docs/lenses/<Lens>.md)"* link. Tag incremental lenses **`(Preview)`** in the heading
+   (e.g. `### LeaderLens (Preview)`).
+4. **`## Set up once`** — the shared ingester/PAX flow + parameters; link to `docs/PREREQUISITES.md`,
+   and the per-path setup (`1. Fabric/README.md`, `2. SharePoint/README.md`). *(This is our equivalent
+   of their "Setup Wizard + ordered checklist"; we have no managed-solution wizard.)*
+5. **`## Deployment paths`** — Fabric vs SharePoint table.
+6. **`## Known limitations`** + **`## Latest release`** (Watch → Releases subscribe tip).
+7. **`## Related`** — cross-link StudioLens; and a short "how we differ" note vs the Power CAT Kit's
+   **Agent Insights Hub** / **Agent Value Summary dashboard** (they're Dataverse-solution analytics for
+   *makers*; CopilotScope is Power BI value/adoption analytics for *leaders/CoE* — complementary).
+8. **`## About`** — built & maintained by Microsoft Business Value Advisory (BVA).
+9. **Footer (pre-OSPO):** Code of Conduct, Trademarks, Security (see 14c).
+
+### 14b. Per-lens docs
+- One file per lens under `docs/lenses/` (mirrors their `COMPLIANCE_HUB.md`, `PROMPT_ADVISOR.md`…).
+  Each: what it answers · source tables · key measures · which pages · screenshot.
+- Add **`docs/PREREQUISITES.md`** (licenses, Fabric capacity, Graph/Dataverse/Purview permissions,
+  credit/credit-consumption notes) referenced from every setup section — don't repeat perms inline.
+
+### 14c. OSS governance (add BEFORE the `microsoft/` OSPO move — not needed on personal repos yet)
+Required for a `microsoft/`-org repo (Keith has done this for `microsoft/AI-in-One-Dashboard`):
+- `LICENSE` (MIT, "Copyright (c) Microsoft Corporation"), `SECURITY.md` (aka.ms/SECURITY.md block),
+  `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SUPPORT.md`, `RELEASE_NOTES.md`.
+- README footer sections: **Security**, **Trademarks**, **Microsoft Open Source Code of Conduct**,
+  **Submit a feature request** (issue etiquette incl. 👍/👎 voting).
+- `.github/` issue + PR templates.
+- Repo created/transferred via `repos.opensource.microsoft.com` (OSPO).
+
+### 14d. Releases
+- Tag releases; keep `RELEASE_NOTES.md`; add the "**Watch → Custom → Releases**" subscribe tip.
+- Consider `(Preview)` → GA lifecycle labels per lens as they mature.
+
+### 14e. What NOT to copy
+- Their **Setup Wizard / managed-solution / AppSource** install model is Dataverse-specific.
+  CopilotScope ships **Power BI templates + notebooks/PAX** — our "setup" is the ingester/PAX flow and
+  the Setup→Lens matrix, not a solution import.
 
 ---
 
