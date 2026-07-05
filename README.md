@@ -4,15 +4,16 @@
 
 #### by Microsoft Business Value Advisory (BVA)
 
-### One scope, many lenses. Power BI lenses to measure the **value, adoption, maturity, behaviour, and impact** of Microsoft 365 Copilot.
+### The Frontier Copilot Reporting Kit
+
+Power BI lenses to measure the **value, adoption, maturity, behaviour, and impact** of Microsoft 365 Copilot.
 
 [![Built by Microsoft BVA](https://img.shields.io/badge/BUILT_BY-MICROSOFT_BVA-4F73B8?style=for-the-badge&labelColor=1C2632)](https://github.com/Keithland89/CopilotScope)
 [![Power BI Template](https://img.shields.io/badge/POWER_BI-TEMPLATE-F2C811?style=for-the-badge&logo=powerbi&logoColor=1C2632&labelColor=1C2632)](#the-lenses)
 [![Status](https://img.shields.io/badge/STATUS-IN_BUILD-09B39D?style=for-the-badge&labelColor=1C2632)](#latest-release)
 
-**Set up your data once — then swap in lenses.** Like a microscope, CopilotScope keeps the *stage*
-(your Copilot data) fixed and lets you **swap lenses** to examine value, adoption, readiness, maturity,
-behaviour, leadership, and Copilot Studio agents.
+Set up your Copilot data once. Each lens then reads the same model to examine value, adoption,
+readiness, maturity, behaviour, leadership, and Copilot Studio agents.
 
 </div>
 
@@ -21,10 +22,9 @@ behaviour, leadership, and Copilot Studio agents.
 
 ---
 
-## One setup, many lenses
+## How it works
 
-Most lenses come from the **same core setup**. You only add a data source to unlock a specialised lens —
-that's the microscope promise: **one stage, swappable lenses.**
+Most lenses come from the **same core setup**. You only add a data source to unlock a specialised lens.
 
 | Data source (set up once) | Lenses it unlocks |
 |---|---|
